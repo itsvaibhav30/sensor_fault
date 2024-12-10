@@ -12,7 +12,7 @@ client = MongoClient(uri)
 DATABASE_NAME="pwskills"
 COLLECTION_NAME='waferfault'
 
-df=pd.read_csv("C:\Users\imran\Dropbox\PC\Downloads\sensorproject\notebooks\wafer_23012020_041211.csv")
+df=pd.read_csv("D:\Projects\SensorfaultFinal\notebooks\wafer_23012020_041211.csv")
 
 df=df.drop("Unnamed: 0",axis=1)
 
